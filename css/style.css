@@ -1,0 +1,125 @@
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.nav{
+    margin: 3px;
+    width: 190px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho{
+    background-color: rgb(88, 88, 241);
+    color: rgb(255, 255, 255);
+    
+}
+
+.conceito{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.paragrafo{
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+.calculo{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px; 
+}
+
+.inputs{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kg{
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.m{
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.img{
+    margin-top: 40px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.checkbox{
+   width: 30px;
+   height: 30px;
+   
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+h3{
+    margin: 10px;
+}
+
+.homemIcon{
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 30px;
+    
+}
+
+.mulherIcon{
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.fim{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>CALCULE SEU IMC</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <ul>
+                <li class="nav"><a href="#">INICIO </a></li>
+                <li class="nav"><a href="#paragrafo">O QUE É IMC</a></li>
+                <li class="nav"><a href="#calculo">CALCULE SEU IMC</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="paragrafo">
+            <div class="conceito">
+                <h1>O QUE É IMC?</h1>
+            </div>
+            <div class="paragrafo">
+                <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para
+                    calcular o peso ideal de cada pessoa. </p>
+                <p> Apesar de ser o índice mais utilizado, o IMC apresenta algumas falhas. O principal problema é que
+                    ele não indica a distribuição da gordura no corpo, um fator primordial para avaliar o sobrepeso.
+                    Além desse problema, o IMC não consegue indicar a relação entre massa gorda e magra. </p>
+                <p>Como é calculado o IMC? O IMC é calculado dividindo o peso (em kg) pela altura ao quadrado (em m), de
+                    acordo com a seguinte fórmula: IMC = peso / (altura x altura). O resultado de IMC é dado em kg/m2
+                </p>
+            </div>
+        </section>
+        <section id="calculo">
+            <div class="calculo">
+                <h2> VAMOS CALCULAR SEU IMC?</h2>
+            </div>
+            <!-- FUNÇÃO HOMEM /MULHER DESATIVADA POR ENQUANTO -->
+            <!-- <div class="check">
+                <input type="checkbox" class="checkbox">
+                <img class="homemIcon" src="./imagens/homem.png">
+                <input type="checkbox" class="checkbox">
+                <img class="mulherIcon" src="./imagens/mulher.png">
+            </div> -->
+            <div class="inputs">
+                <h3> Quantos KG você está pesando? <input type="text" class="kg" id="kg"></h3>
+
+                <h3> Qual o sua altura em M²? (Ex: 1.72) <input type="text" class="m" id="m"></h3>
+                <button onclick="calcular()">CALCULAR</button>
+            </div>
+            <div>
+                <h2 class="resultado" id="resultado">IMC</h2>
+            </div>
+        </section>
+        <div class="img">
+            <img src="./imagens/imc.jpg">
+        </div>
+    </main>
+    <div class="fim">
+    <footer><small>Desenvolvido por Davi Roque & Andre Barcelar </small></footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
