@@ -1,3 +1,5 @@
+
+
 ul{
     list-style: none;
     display: flex;
@@ -21,11 +23,13 @@ a{
     height: 30px;
     display: flex;
     align-items: center;
+    
 }
 
 .cabecalho{
     background-color: rgb(88, 88, 241);
     color: rgb(255, 255, 255);
+   
     
 }
 
@@ -122,4 +126,8 @@ h3{
 .resultado{
     display: flex;
     justify-content: center;
+}
+
+.red{
+    color: red;
 }
