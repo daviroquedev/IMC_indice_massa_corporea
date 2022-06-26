@@ -1,4 +1,6 @@
-
+*{
+    margin:0;
+}
 
 ul{
     list-style: none;
@@ -23,6 +25,7 @@ a{
     height: 30px;
     display: flex;
     align-items: center;
+    padding:5px;
     
 }
 
@@ -42,9 +45,9 @@ a{
 }
 
 .paragrafo{
-    font-size: 30px;
-    margin-left: 10%;
-    margin-right: 10%;    
+    font-size: 28px;
+    margin-left: 2%;
+    margin-right: 2%;    
 }
 
 .calculo{
